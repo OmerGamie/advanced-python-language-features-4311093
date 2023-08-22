@@ -9,14 +9,14 @@ print(b)
 s = "This is a string"
 print(s)
 
-# TODO: Try combining them.
+# Try combining them.
 # print(s+b)
 
-# TODO: Bytes and strings need to be properly encoded and decoded
+# Bytes and strings need to be properly encoded and decoded
 # before we can work on them together
 s2 = b.decode("utf-8")
 print(s+s2)
 
-# TODO: encode the string as UTF-32
+# Encode the string as UTF-32
 b3 = s.encode("utf-32")
 print(b3)
