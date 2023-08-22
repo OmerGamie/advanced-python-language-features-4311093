@@ -1,17 +1,20 @@
-# Advanced Python: Language Features
-This is the repository for the LinkedIn Learning course Advanced Python: Language Features. The full course is available from [LinkedIn Learning][lil-course-url].
+## Practicing Advanced Python: Language Features
 
-![Advanced Python: Language Features][lil-thumbnail-url] 
+This repository is my personal workspace as I delve into the advanced aspects of Python. My journey to mastering Python's advanced functionalities is guided by the LinkedIn Learning course "Advanced Python: Language Features". The original course and its complete material are available from [LinkedIn Learning][lil-course-url].
 
-Python has become the language of choice of many developers for building all kinds of applications across a wide range of industries, but to fully take advantage of its power and flexibility, you need to master all its advanced functionality. Python is a flexible, customizable language that provides features that other languages support only through third-party libraries or require that you build yourself. In this course, Joe Marini takes you through some of the more advanced features of the Python language. Joe shows you how to write code that is easier to read and maintain, build classes that work just like the ones that are native to the language, and work with some of the newest features of the language itself, like structural pattern matching.
-If you're ready to take your Python skills to the next level, join Joe in this course.
+![Advanced Python: Language Features][lil-thumbnail-url]
 
+Python, known for its versatility across numerous industries, is a language I'm keen on mastering. It offers unique features that most other languages either support via third-party libraries or don't support at all. Through this course, originally presented by Joe Marini, I'm getting acquainted with code practices that enhance readability and maintainability, constructing classes that mirror Python's native ones, and exploring some of the latest features of Python such as structural pattern matching.
 
-## Instructor
-Joe Marini has been building software professionally for some of the biggest and best known companies in Silicon Valley for more than 30 years.
-                           
+As I continue this learning journey, I aim to level up my Python skills and harness its advanced features effectively.
 
-Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/joe-marini).
+## About the Original Instructor
+
+Joe Marini, with a professional experience spanning over 30 years, has crafted software solutions for many prominent companies in Silicon Valley. His expertise and teaching style are a significant influence on my learning.
+
+You can find more of Joe Marini's courses on LinkedIn Learning.
+
+Note: I've omitted the reference links at the end since they're still relevant and would be needed for the document to render correctly on GitHub.
 
 [lil-course-url]: https://www.linkedin.com/learning/advanced-python-language-features?dApp=59033956
 [lil-thumbnail-url]: https://media.licdn.com/dms/image/C560DAQGse5pGo4mLQw/learning-public-crop_288_512/0/1678465532457?e=2147483647&v=beta&t=0UQWPDRu2DI_YBrVq-s7L5jQ4WkpV6Xzr4aVR3tuPnM
