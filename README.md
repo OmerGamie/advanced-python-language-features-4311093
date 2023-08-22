@@ -12,7 +12,7 @@ As I continue this learning journey, I aim to level up my Python skills and harn
 
 Joe Marini, with a professional experience spanning over 30 years, has crafted software solutions for many prominent companies in Silicon Valley. His expertise and teaching style are a significant influence on my learning.
 
-You can find more of Joe Marini's courses on [LinkedIn Learning] (https://www.linkedin.com/learning/instructors/joe-marini).
+You can find more of Joe Marini's courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/joe-marini).
 
 Note: I've omitted the reference links at the end since they're still relevant and would be needed for the document to render correctly on GitHub.
 
