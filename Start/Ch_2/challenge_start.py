@@ -12,11 +12,26 @@
 
 
 def string_combiner(*args, unique=False):
-    result = ""
+    """
+    Combines a variable number of strings and numbers into a single string.
+    Accepts a keyword-only argument 'unique'.
+       Parameters:
+    *args: A variable number of arguments. Only strings and numbers will be combined.
+    unique: A keyword-only argument. If True, the returned string will have no duplicate characters. Defaults to False.
 
-    # YOUR CODE HERE
+    Returns:
+    A combined string.
 
-    return result
+    Arguments of types other than string and int are ignored.
+    """
+    combined = ""
+    for arg in args:
+        if isinstance(arg, (str, int)):
+            combined += str(arg)
+    if unique:
+        combined = "".join(set(combined))
+
+    return combined
 
 
 # test code:
