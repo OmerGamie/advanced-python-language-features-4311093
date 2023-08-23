@@ -1,5 +1,4 @@
-# Example file for Advanced Python: Language Features by Joe Marini
-# demonstrate template string functions
+# Demonstrate template string functions
 from string import Template
 
 # Usual string formatting with f-strings

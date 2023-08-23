@@ -1,4 +1,3 @@
-# Example file for Advanced Python: Language Features by Joe Marini
 # Challenge solution file for Advanced Functions
 
 # Challenge:

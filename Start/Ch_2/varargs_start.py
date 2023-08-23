@@ -1,13 +1,18 @@
-# Example file for Advanced Python: Language Features by Joe Marini
 # Demonstrate the use of lambda functions
 
 
-# TODO: define a function that takes variable arguments
-def addition():
-    pass
+# Define a function that takes variable arguments
+def addition(*nums):
+    result = 0
+    for num in nums:
+        result += num
+    return result
 
 
-# TODO: pass different arguments
-print(addition())
+# Pass different arguments
+print(addition(5, 10, 7, 22))
+print(addition(19, 1, 4))
 
-# TODO: pass an existing list
+# Pass an existing list and use the unpacker
+my_list = [5, 10, 7, 22, 19, 1, 4]
+print(addition(*my_list))

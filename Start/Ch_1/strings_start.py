@@ -1,4 +1,3 @@
-# Example file for Advanced Python: Language Features by Joe Marini
 # strings and bytes are not directly interchangeable
 # strings contain unicode, bytes are raw 8-bit values
 

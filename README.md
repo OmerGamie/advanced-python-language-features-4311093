@@ -22,7 +22,7 @@ This section tracks the different stages and chapters of my journey through the 
 - [x] Documentation strings
 - [x] Variable argument list
 - [x] Lambda functions
-- [x] Keyword-only arguments
+- [] Keyword-only arguments
 
 ### Chapter 3: Python comprehension
 - [ ] List comprehensions

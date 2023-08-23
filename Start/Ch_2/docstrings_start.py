@@ -1,5 +1,4 @@
-# Example file for Advanced Python: Language Features by Joe Marini
-# Demonstrate the use of lambda functions
+# Demonstrate how to write a Docstring
 
 
 def points(twopointers, threepointers):

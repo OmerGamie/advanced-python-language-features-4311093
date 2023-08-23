@@ -1,4 +1,3 @@
-# Example file for Advanced Python: Language Features by Joe Marini
 # Demonstrate the use of keyword-only arguments
 
 
