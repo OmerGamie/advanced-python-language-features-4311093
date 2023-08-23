@@ -8,6 +8,41 @@ Python, known for its versatility across numerous industries, is a language I'm 
 
 As I continue this learning journey, I aim to level up my Python skills and harness its advanced features effectively.
 
+## Progress
+
+This section tracks the different stages and chapters of my journey through the course. 
+
+### Chapter 1: Advanced Python Functions
+- [x] Understanding strings vs. bytes 
+- [x] Understanding boolean types and values
+- [x] Understanding the assignment expression
+- [x] Template strings
+
+### Chapter 2: Code Maintainability
+- [x] Documentation strings
+- [x] Variable argument list
+- [x] Lambda functions
+- [x] Keyword-only arguments
+
+### Chapter 3: Python comprehension
+- [ ] List comprehensions
+- [ ] Dictionary comprehensions
+- [ ] Set comprehensions
+
+### Chapter 4: Python classes and objects
+- [ ] Defining enumerations
+- [ ] Special methods: String values
+- [ ] Special methods: Computed attributes
+- [ ] Special methods: operations
+- [ ] Special methods: comparisons
+
+### Chapter 5: Structural Pattern Matching
+- [ ] Simple patterns
+- [ ] Capture patterns
+- [ ] Class patterns
+- [ ] Sequence patterns
+- [ ] Pattern guards
+
 ## About the Original Instructor
 
 Joe Marini, with a professional experience spanning over 30 years, has crafted software solutions for many prominent companies in Silicon Valley. His expertise and teaching style are a significant influence on my learning.
