@@ -18,16 +18,19 @@ This section tracks the different stages and chapters of my journey through the 
 - [x] Understanding the assignment expression
 - [x] Template strings
 
+
 ### Chapter 2: Code Maintainability
 - [x] Documentation strings
 - [x] Variable argument list
 - [x] Lambda functions
 - [x] Keyword-only arguments
+- [x] Chapter Challange
 
 ### Chapter 3: Python comprehension
-- [ ] List comprehensions
-- [ ] Dictionary comprehensions
-- [ ] Set comprehensions
+- [x] List comprehensions
+- [x] Dictionary comprehensions
+- [x] Set comprehensions
+- [x] Chapter Challange
 
 ### Chapter 4: Python classes and objects
 - [ ] Defining enumerations
@@ -43,7 +46,11 @@ This section tracks the different stages and chapters of my journey through the 
 - [ ] Sequence patterns
 - [ ] Pattern guards
 
-## About the Original Instructor
+## Credits
+
+I embarked on this educational journey to dive deeper into the intricacies of Python, guided by Joe Marini through his course "Advanced Python: Language Features"
+
+### About the Original Instructor
 
 Joe Marini, with a professional experience spanning over 30 years, has crafted software solutions for many prominent companies in Silicon Valley. His expertise and teaching style are a significant influence on my learning.
 
