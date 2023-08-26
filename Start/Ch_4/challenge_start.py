@@ -1,4 +1,3 @@
-# Example file for Advanced Python: Language Features by Joe Marini
 # Programming challenge for Special Class Methods
 
 # Challenge:

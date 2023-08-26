@@ -46,11 +46,11 @@ This section tracks the different stages and chapters of my journey through the 
 - [ ] Class patterns
 - [ ] Sequence patterns
 - [ ] Pattern guards
-- [ ] Chapter four Challange
+- [ ] Chapter five Challange
 
 ## Credits
 
-I embarked on this educational journey to dive deeper into the intricacies of Python, guided by Joe Marini through his course "Advanced Python: Language Features"
+I embarked on this educational journey to dive deeper into the intricacies of Python, guided by Joe Marini through his course "Advanced Python: Language Features". All example files throughout this repo by Joe Marini.
 
 ### About the Original Instructor
 
