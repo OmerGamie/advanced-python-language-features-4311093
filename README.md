@@ -50,7 +50,7 @@ This section tracks the different stages and chapters of my journey through the 
 
 ## Credits
 
-I embarked on this educational journey to dive deeper into the intricacies of Python, guided by Joe Marini through his course "Advanced Python: Language Features". All example files throughout this repo by Joe Marini.
+I embarked on this educational journey to dive deeper into the intricacies of Python, guided by Joe Marini through his course "Advanced Python: Language Features". Example files throughout this repo by Joe Marini.
 
 ### About the Original Instructor
 
