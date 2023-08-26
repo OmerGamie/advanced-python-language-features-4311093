@@ -41,12 +41,12 @@ This section tracks the different stages and chapters of my journey through the 
 - [x] Chapter four Challange
 
 ### Chapter 5: Structural Pattern Matching
-- [ ] Simple patterns
-- [ ] Capture patterns
-- [ ] Class patterns
-- [ ] Sequence patterns
-- [ ] Pattern guards
-- [ ] Chapter five Challange
+- [x] Simple patterns
+- [x] Capture patterns
+- [x] Class patterns
+- [x] Sequence patterns
+- [x] Pattern guards
+- [x] Chapter five Challange
 
 ## Credits
 
