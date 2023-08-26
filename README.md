@@ -24,20 +24,21 @@ This section tracks the different stages and chapters of my journey through the 
 - [x] Variable argument list
 - [x] Lambda functions
 - [x] Keyword-only arguments
-- [x] Chapter Challange
+- [x] Chapter two Challange
 
 ### Chapter 3: Python comprehension
 - [x] List comprehensions
 - [x] Dictionary comprehensions
 - [x] Set comprehensions
-- [x] Chapter Challange
+- [x] Chapter three Challange
 
 ### Chapter 4: Python classes and objects
-- [ ] Defining enumerations
-- [ ] Special methods: String values
-- [ ] Special methods: Computed attributes
-- [ ] Special methods: operations
-- [ ] Special methods: comparisons
+- [x] Defining enumerations
+- [x] Special methods: String values
+- [x] Special methods: Computed attributes
+- [x] Special methods: operations
+- [x] Special methods: comparisons
+- [x] Chapter four Challange
 
 ### Chapter 5: Structural Pattern Matching
 - [ ] Simple patterns
@@ -45,6 +46,7 @@ This section tracks the different stages and chapters of my journey through the 
 - [ ] Class patterns
 - [ ] Sequence patterns
 - [ ] Pattern guards
+- [ ] Chapter four Challange
 
 ## Credits
 

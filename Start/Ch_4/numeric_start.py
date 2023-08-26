@@ -10,26 +10,37 @@ class Point():
     def __repr__(self):
         return f"<Point x:{self.x},y:{self.y}>"
 
-    # TODO: implement addition
+    # Implement addition
     def __add__(self, other):
-        pass
+        return Point(self.x + other.x, self.y + other.y)
 
-    # TODO: implement subtraction
+    # Implement subtraction
     def __sub__(self, other):
-        pass
+        return Point(self.x - other.x, self.y - other.y)
 
-    # TODO: implement in-place addition
+    # Implement in-place addition
     def __iadd__(self, other):
-        pass
+        self.x += other.x
+        self.y += other.y
+        return self
 
 
 # Declare some points
-p1 = Point(10, 20)
-p2 = Point(30, 30)
-print(p1, p2)
+p1 = Point(20, 40)
+p2 = Point(50, 70)
+print(f"P1: {p1}, P2: {p2} \n")
 
-# TODO: Add two points
+# Add two points
+p3 = p1 + p2
+print(f"Addition: {p3} \n")
 
-# TODO: subtract two points
+# Subtract two points
+p4 = p2 - p1
+print(f"Subtraction: {p4} \n")
 
-# TODO: Perform in-place addition
+# Perform in-place operations
+p1 += p2
+print(f"In-place addition: {p1} \n")
+
+p1 -= p2
+print(f"In_place subtraction: {p1}")

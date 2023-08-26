@@ -1,6 +1,4 @@
-# Example file for Advanced Python: Language Features by Joe Marini
 # Use special methods to compare objects to each other
-
 
 class Employee():
     def __init__(self, fname, lname, level, years_service):
@@ -9,31 +7,48 @@ class Employee():
         self.level = level
         self.seniority = years_service
 
-    # TODO: implement comparison functions by emp level
+    # Implement comparison functions by emp level
     def __ge__(self, other):
-        pass
+        if self.level == other.level:
+            return self.seniority >= other.seniority
+        return self.level >= other.level
 
     def __gt__(self, other):
-        pass
+        if self.level == other.level:
+            return self.seniority > other.seniority
+        return self.level > other.level
 
     def __lt__(self, other):
-        pass
+        if self.level == other.level:
+            return self.seniority < other.seniority
+        return self.level < other.level
 
     def __le__(self, other):
-        pass
+        if self.level == other.level:
+            return self.seniority <= other.seniority
+        return self.level <= other.level
 
     def __eq__(self, other):
-        pass
+        return self.level == other.level
 
 
 # define some employees
 dept = []
-dept.append(Employee("Tim", "Sims", 5, 9))
-dept.append(Employee("John", "Doe", 4, 12))
-dept.append(Employee("Jane", "Smith", 6, 6))
-dept.append(Employee("Rebecca", "Robinson", 5, 13))
-dept.append(Employee("Tyler", "Durden", 5, 12))
+dept.append(Employee("Omer", "Gamie", 8, 9))
+dept.append(Employee("Mona", "Ahmed", 5, 11))
+dept.append(Employee("John", "Cena", 7, 7))
+dept.append(Employee("Ibrahim", "Sharief", 6, 14))
+dept.append(Employee("Ali", "Hassan", 6, 13))
 
-# TODO: Who's more senior?
+# Who's more senior?
+print(dept[1] > dept[3])
+print(dept[2] < dept[4])
 
-# TODO: sort the items
+# Sort the items
+for emp in dept:
+    print(emp.lname)
+print("-----------")
+
+emps = sorted(dept)
+for emp in emps:
+    print(emp.lname)

@@ -1,5 +1,4 @@
-# Example file for Advanced Python: Language Features by Joe Marini
-# customize string representations of objects
+# Customize string representations of objects
 
 
 class MyColor():
@@ -8,25 +7,47 @@ class MyColor():
         self.green = 75
         self.blue = 100
 
-    # TODO: use getattr to dynamically return a value
-    # def __getattr__(self, attr):
-    #     pass
+    # Use getattr to dynamically return a value
+    def __getattr__(self, attr):
 
-    # TODO: use setattr to dynamically return a value
-    # def __setattr__(self, attr, val):
-    #     pass
+        if attr == "rgbcolor":
+            return (self.red, self.green, self.blue)
+        elif attr == "hexcolor":
+            return f"{self.red:02x}{self.green:02x}{self.blue:02x}"
+        else:
+            raise AttributeError(f"{attr} is not valid")
 
-    # TODO: use dir to list the available properties
-    # def __dir__(self):
-    #     pass
+    # Use setattr to dynamically return a value
+    def __setattr__(self, attr, val):
+        if attr == "rgbcolor":
+            self.red = val[0]
+            self.green = val[1]
+            self.blue = val[2]
+        else:
+            super().__setattr__(attr, val)
+
+    # Use dir to list the available properties
+    def __dir__(self):
+        return ("rgbcolor", "hexcolor")
 
 
-# create an instance of myColor
+# Create an instance of myColor
 cls1 = MyColor()
-# TODO: print the value of a computed attribute
 
-# TODO: set the value of a computed attribute
+# Print the value of a computed attribute
+print(f"RGB color: {cls1.rgbcolor}")
+print(f"Hex color: {cls1.hexcolor}")
+print("")
 
-# TODO: access a regular attribute
+# Set the value of a computed attribute
+cls1.rgbcolor = (175, 225, 320)
+print(f"RGB color after change: {cls1.rgbcolor}")
+print(f"Hex color after change: {cls1.hexcolor}")
+print("")
 
-# TODO: list the available attributes
+# Access a regular attribute
+print(f"Regular attribute (Blue): {cls1.blue}")
+print("")
+
+# List the available attributes
+print(f"Available attributes:  {dir(cls1)}")

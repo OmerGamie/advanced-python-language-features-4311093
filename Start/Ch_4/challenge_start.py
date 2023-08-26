@@ -1,7 +1,6 @@
 # Example file for Advanced Python: Language Features by Joe Marini
 # Programming challenge for Special Class Methods
 
-
 # Challenge:
 # Given a class that represents a Book with various properties such
 # as title, author, pagecount, etc:
@@ -18,23 +17,54 @@
 # 5) Successfully execute the sample code provided below.
 
 
+# SOLUTION
+from enum import Enum
+
+
+# Implement the Hard/Paperback Enum
+class CoverType(Enum):
+    HARD = "Hard"
+    PAPERBACK = "Paperback"
+
+
 class Book():
     def __init__(self, title, author, pages, cover, antique, price):
         self.title = title
         self.author = author
         self.pages = pages
-        self.cover = cover
+        self.cover = CoverType(cover)
         self.antique = antique
         self.price = price
 
-    # TODO: Implement the str and repr functions
+    # Implement the str and repr functions
+    def __str__(self):
+        return f"{self.title} by {self.author}: {self.pages}, {self.cover.value}, {self.price}"
 
-    # TODO: Implement the adjustedprice attribute
+    def __repr__(self):
+        return f"<Book:{self.title}:{self.author}:{self.pages}:{self.cover.value}:{self.price}>"
 
-    # TODO: Implement comparisons <, >, <=, >=
+    # Implement the adjustedprice attribute
+    @property
+    def adjustedprice(self):
+        adj_price = self.price
+        if self.antique:
+            adj_price += 10.00
+        if self.cover == CoverType.PAPERBACK:
+            adj_price -= 2.00
+        return adj_price
 
+    # Implement comparisons <, >, <=, >=
+    def __lt__(self, other):
+        return self.pages < other.pages
 
-# TODO: Implement the Hard/Paperback Enum
+    def __gt__(self, other):
+        return self.pages > other.pages
+
+    def __le__(self, other):
+        return self.pages <= other.pages
+
+    def __ge__(self, other):
+        return self.pages >= other.pages
 
 
 books = [
@@ -51,7 +81,7 @@ books = [
 # TEST CODE
 
 # 1 - test the str and repr functions
-print("-------------")
+print("--------------")
 print(str(books[0]))
 print(str(books[3]))
 print(str(books[5]))
@@ -59,13 +89,13 @@ print()
 print(repr(books[0]))
 print(repr(books[3]))
 print(repr(books[5]))
-print("-------------")
+print("-------------\n")
 
 # 2 - test the "adjustedprice" computed attribute
+print("---------------")
 for book in books:
     print(f"{book.title}: {book.adjustedprice:.2f}")
-print("-------------")
-print()
+print("--------------\n")
 
 # 3 - compare on pagecount
 print(books[1] > books[2])
